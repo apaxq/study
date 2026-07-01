@@ -1,6 +1,6 @@
 public static class FizzBuzz {
 	private static void fizzbuzz(int max) {
-        if (max != 1) {
+        if (max != 0) {
             fizzbuzz(max - 1);
         }
 
