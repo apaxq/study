@@ -1,7 +1,7 @@
 #include <iostream>
 
 void fizzbuzz(const int max) {
-    if (max != 1) {
+    if (max != 0) {
         fizzbuzz(max - 1);
     }
 
