@@ -3,12 +3,9 @@
 #include<queue>
 #include<vector>
 #include<list>
-#include<tuple>
 #include<utility>
 #include<iostream>
-#include<climits>
 #include<sstream>
-using namespace std;
 
 path solve_dfs(Maze& m, int rows, int cols);
 path solve_bfs(Maze& m, int rows, int cols);
